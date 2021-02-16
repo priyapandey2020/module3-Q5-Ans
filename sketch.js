@@ -15,7 +15,7 @@ function draw() {
   box2.x = World.mouseX;
   box2.y = World.mouseY;
 
-  if (box2.x - box1.x < box1.width/2 + box2.width/2) {
+  if (box2.x - box1.x === box1.width/2 + box2.width/2) {
     box2.shapeColor = "red";
     box1.shapeColor = "red";
   }
